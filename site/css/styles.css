@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	font-size: 15px;
+}
+h1 {
+	text-align: center;
+	font-size: 1.75em;
+}
+section {
+	position: relative;
+	border: solid 10px white;
+}
+
+@media (min-width: 992px) {
+	section {
+		width: 33.33%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.section1, .section2 {
+		width:50%;
+		float: left;
+	}
+	.section3 {
+		width: 100%;
+		float: left;
+	}
+}
+div {
+	border: solid black 3px;
+	text-align: center;
+	width: 120px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 1.25em;
+}
+.title1 {
+	background: red;
+}
+.title2 {
+	background: gray;
+	color: white;
+}
+.title3 {
+	background: green;
+	color: white;
+}
+p {
+	padding: 30px 10px 16px 10px;
+	text-align: justify;
+	margin: 0px;
+	border: black solid 3px;
+	background: pink;
+}
